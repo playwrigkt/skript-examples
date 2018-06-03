@@ -1,0 +1,11 @@
+kotlin {
+    experimental {
+        coroutines "enable"
+    }
+}
+dependencies {
+    compile project(':api')
+    compile "playwrigkt.skript:skript-impl-coroutine:+"
+    compile "org.postgresql:postgresql:$postgres_version"
+    testCompile project(':api').sourceSets.test.output
+}

@@ -1,0 +1,8 @@
+dependencies {
+    compile project(':api')
+    compile "playwrigkt.skript:skript-impl-vertx:+"
+    compile "com.zaxxer:HikariCP:$hikari_version"
+    compile "org.postgresql:postgresql:$postgres_version"
+
+    testCompile project(':api').sourceSets.test.output
+}
