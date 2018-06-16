@@ -1,7 +1,7 @@
 buildscript {
-  ext.kotlin_version = '1.2.30'
-  ext.kotlin_coroutine_version = '0.22.4'
-  ext.kotlin_test_version="3.0.3"
+  ext.kotlin_version = '1.2.50'
+  ext.kotlin_coroutine_version = '0.23.3'
+  ext.kotlin_test_version="3.1.6"
   ext.hikari_version = '2.7.1'
   ext.postgres_version = '42.1.4'
   ext.junit_platform_version = "5.1.0"
